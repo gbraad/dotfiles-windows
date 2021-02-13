@@ -58,33 +58,33 @@
             },
             {
                 "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
-                "hidden": true,
+                "hidden": false,
                 "name": "Azure Cloud Shell",
                 "source": "Windows.Terminal.Azure"
             },
             {
-                "guid": "{d3f31bee-5823-5ed8-8e04-f31ed54f2cd9}",
-                "hidden": false,
-                "name": "fedoraremix",
-                "source": "Windows.Terminal.Wsl"
-            },
-            {
-                "name":  "gbraad@ncentre",
+                "name":  "ncentre",
                 "tabTitle": "ncentre",
                 "commandline": "ssh gbraad@ncentre",
                 "icon": "c:/users/gbraad/pictures/prompt-icon-64.png"
             },
             {
-                "name":  "gbraad@nroute",
+                "name":  "nroute",
                 "tabTitle": "nroute",
                 "commandline": "ssh gbraad@nroute",
                 "icon": "c:/users/gbraad/pictures/prompt-icon-64.png"
             },
             {
-                "name":  "gbraad@fedoravm",
+                "name":  "fedoravm",
                 "tabTitle": "fedoravm",
                 "commandline": "ssh gbraad@fedoravm",
                 "icon": "c:/users/gbraad/pictures/prompt-icon-64.png"
+            },
+            {
+                "guid": "{8ab47eb7-99ef-56be-b5fc-547313678d8b}",
+                "hidden": false,
+                "name": "fedorawsl",
+                "source": "Windows.Terminal.Wsl"
             },
         ]
     },
