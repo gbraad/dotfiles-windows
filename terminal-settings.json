@@ -68,7 +68,8 @@
                 "guid": "{8ab47eb7-99ef-56be-b5fc-547313678d8b}",
                 "hidden": false,
                 "name": "fedorawsl",
-                "source": "Windows.Terminal.Wsl"
+                "source": "Windows.Terminal.Wsl",
+                "icon": "c:/users/gbraad/pictures/fedora-logo-transparent.png"
             },
             {
                 "guid": "{00000000-0000-0000-0000-000000000001}",
