@@ -86,6 +86,13 @@
                 "name": "fedorawsl",
                 "source": "Windows.Terminal.Wsl"
             },
+            {
+                "guid": "{00000000-0000-0000-0000-000000000001}",
+                "commandline": "C:/cygwin64/Cygwin.bat",
+                "icon": "C:/cygwin64/Cygwin-Terminal.ico",
+                "hidden": false,
+                "name": "Cygwin"
+            },
         ]
     },
 
