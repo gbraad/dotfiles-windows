@@ -16,7 +16,9 @@
             "antialiasingMode": "cleartype",
             //"colorScheme": "Tomorrow Night Bright"
             "colorScheme": "Tango Dark Custom",
-            "padding": "0, 0, 0, 0"
+            "padding": "0, 0, 0, 0",
+            "scrollbarState": "hidden",
+            "cursorShape": "filledBox"
         },
         "list":
         [
