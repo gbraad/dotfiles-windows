@@ -73,7 +73,7 @@
             {
                 "guid": "{00000000-0000-0000-0000-000000000001}",
                 "commandline": "C:/cygwin64/Cygwin.bat",
-                "icon": "C:/cygwin64/Cygwin-Terminal.ico",
+                "icon": "C:/cygwin64/Cygwin.ico",
                 "hidden": false,
                 "name": "Cygwin"
             },
