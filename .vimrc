@@ -11,7 +11,7 @@ set guioptions-=T
 
 colorscheme Tomorrow-Night-Bright
 
-set guifont=Source\ Code\ Pro\ for\ Powerline
+set guifont=Source\ Code\ Pro
 "set cursorline 
 set number
 nmap <C-N><C-N> :set invnumber<CR>
