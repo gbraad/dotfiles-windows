@@ -11,7 +11,7 @@
     {
         "defaults":
         {
-            "fontFace": "Source Code Pro for Powerline",
+            "fontFace": "Source Code Pro",
             "fontSize": 10,
             "antialiasingMode": "cleartype",
             //"colorScheme": "Tomorrow Night Bright"
