@@ -35,4 +35,5 @@
         "statusBar.debuggingBackground": "#5f0000"
     },
     "jupyter.jupyterServerType": "local",
+    "update.showReleaseNotes": false
 }
