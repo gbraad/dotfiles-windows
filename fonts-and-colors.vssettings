@@ -49,6 +49,7 @@
 							<Item Name="outlining.verticalrule" Foreground="0x00A5A5A5" Background="0x02000000" BoldFont="No"/>
 							<Item Name="outlining.collapsehintadornment" Foreground="0x00E8DDD7" Background="0x00000000" BoldFont="No"/>
 							<Item Name="Line Number" Foreground="0x00808080" Background="0x00000000" BoldFont="No"/>
+							<Item Name="SymbolDefinitionClassificationFormat" Foreground="0x00CDCDCD" Background="0x02000000" BoldFont="No"/>
 							<Item Name="Number" Foreground="0x004083D8" Background="0x02000000" BoldFont="No"/>
 							<Item Name="String" Foreground="0x004ACAB9" Background="0x02000000" BoldFont="No"/>
 							<Item Name="Operator" Foreground="0x02000000" Background="0x02000000" BoldFont="No"/>
@@ -59,6 +60,9 @@
 							<Item Name="Comment" Foreground="0x00969896" Background="0x02000000" BoldFont="No"/>
 							<Item Name="brace matching" Foreground="0x02000000" Background="0x00CCE0DB" BoldFont="No"/>
 							<Item Name="xml doc comment - text" Foreground="0x00969896" Background="0x02000000" BoldFont="No"/>
+							<Item Name="method name" Foreground="0x00DAA67A" Background="0x01000001" BoldFont="No"/>
+							<Item Name="parameter name" Foreground="0x00DEDEDE" Background="0x01000001" BoldFont="No"/>
+							<Item Name="local name" Foreground="0x00DEDEDE" Background="0x01000001" BoldFont="No"/>
 							<Item Name="struct name" Foreground="0x0047C5E7" Background="0x02000000" BoldFont="No"/>
 							<Item Name="interface name" Foreground="0x00DAA67A" Background="0x02000000" BoldFont="No"/>
 							<Item Name="enum name" Foreground="0x0047C5E7" Background="0x02000000" BoldFont="No"/>
