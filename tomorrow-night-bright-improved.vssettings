@@ -100,6 +100,15 @@
 							<Item Name="Keyword" Foreground="0x00D897C3" Background="0x02000000" BoldFont="No"/>
 						</Items>
 					</Category>
+					<Category GUID="{9973EFDF-317D-431C-8BC1-5E88CBFD4F7F}" FontName="Source Code Pro" FontSize="9" CharSet="1" FontIsDefault="No">
+						<Items/>
+					</Category>
+					<Category GUID="{24689D95-4F79-475F-81F0-D6E351D7BCD0}" FontName="Source Code Pro" FontSize="10" CharSet="1" FontIsDefault="No">
+						<Items/>
+					</Category>
+					<Category GUID="{EE1BE240-4E81-4BEB-8EEA-54322B6B1BF5}" FontName="Source Code Pro" FontSize="9" CharSet="1" FontIsDefault="No">
+						<Items/>
+					</Category>
 				</Categories>
 			</FontsAndColors>
 		</Category>
