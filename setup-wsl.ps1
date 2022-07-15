@@ -1,3 +1,2 @@
 # Allow traffic from Hyper-V VMs to WSL and vice versa
-Set-NetIPInterface -ifAlias "vEthernet (WSL)" -Forwarding Enabled
-Set-NetIPInterface -ifAlias "vEthernet (Default Switch)" -Forwarding Enabled
+Get-NetIPInterface | where {$_.InterfaceAlias -eq 'vEthernet (WSL)' -or $_.InterfaceAlias -eq 'vEthernet (Default Switch)'} | Set-NetIPInterface -Forwarding Enabled
