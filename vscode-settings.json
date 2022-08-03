@@ -1,14 +1,18 @@
 {
-    "workbench.startupEditor": "newUntitledFile",
+    "workbench.startupEditor": "none",
+    "remote.SSH.remotePlatform": {
+        "centosvm": "linux",
+        "ncentre": "linux",
+        "nroute": "linux",
+        "fedoravm": "linux"
+    },
     "editor.fontFamily": "'Source Code Pro', Consolas, monospace",
     "terminal.integrated.cursorStyle": "line",
     "terminal.integrated.fontFamily": "'Source Code Pro', Consolas, monospace",
     "editor.minimap.enabled": false,
-    "workbench.editor.showTabs": false,
     "window.menuBarVisibility": "hidden",
     "editor.suggestSelection": "first",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-    "workbench.activityBar.visible": false,
     "go.useLanguageServer": true,
     "workbench.colorTheme": "Tomorrow Night Bright",
     "workbench.iconTheme": "vscode-icons",
@@ -24,16 +28,43 @@
         }
     ],
     "githubPullRequests.telemetry.enabled": false,
+    "vs-kubernetes": {
+        "vs-kubernetes.helm-path.linux": "/home/gbraad/.vs-kubernetes/tools/helm/linux-amd64/helm",
+        "vs-kubernetes.kubectl-path.linux": "/home/gbraad/.vs-kubernetes/tools/kubectl/kubectl",
+        "vs-kubernetes.minikube-path.linux": "/home/gbraad/.vs-kubernetes/tools/minikube/linux-amd64/minikube",
+        "vs-kubernetes.draft-path.linux": "/home/gbraad/.vs-kubernetes/tools/draft/linux-amd64/draft"
+    },
     "docker.dockerodeOptions": {
         "socketPath":"/run/user/1000/podman/podman.sock"
     },
     //"docker.host": "unix:///run/user/1000/podman/podman.sock",
+    //"remoteX11.SSH.verboseLogging": true,
     "vim.statusBarColorControl": true,
     "workbench.colorCustomizations": {
-        "statusBar.background": "#000000",
-        "statusBar.noFolderBackground": "#5f0000",
-        "statusBar.debuggingBackground": "#5f0000"
+        "statusBar.background": "#5f00af",
+        "statusBar.noFolderBackground": "#5f00af",
+        "statusBar.debuggingBackground": "#5f00af"
     },
     "jupyter.jupyterServerType": "local",
-    "update.showReleaseNotes": false
+    "update.showReleaseNotes": false,
+    "vsicons.dontShowNewVersionMessage": true,
+    "workbench.editor.untitled.hint": "hidden",
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook"
+    },
+    "redhat.telemetry.enabled": false,
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    },
+    "explorer.confirmDelete": false,
+    "remote.SSH.defaultExtensions": [
+        "gitpod.gitpod-remote-ssh"
+    ],
+    "diffEditor.ignoreTrimWhitespace": false,
+    "terminal.integrated.scrollback": 10000,
+    "git.autofetch": true,
+    "workbench.editor.showTabs": false,
+    "workbench.activityBar.visible": false,
+    "terminal.integrated.defaultProfile.linux": "zsh"
 }
