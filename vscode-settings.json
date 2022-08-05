@@ -6,9 +6,9 @@
         "nroute": "linux",
         "fedoravm": "linux"
     },
-    "editor.fontFamily": "'Source Code Pro', Consolas, monospace",
+    "editor.fontFamily": "'SauceCodePro NF', 'Source Code Pro', Consolas, monospace",
     "terminal.integrated.cursorStyle": "line",
-    "terminal.integrated.fontFamily": "'Source Code Pro', Consolas, monospace",
+    "terminal.integrated.fontFamily": "'SauceCodePro NF', 'Source Code Pro', Consolas, monospace",
     "editor.minimap.enabled": false,
     "window.menuBarVisibility": "hidden",
     "editor.suggestSelection": "first",
