@@ -1,0 +1,2 @@
+tailscaled --tun=userspace-networking --socks5-server=localhost:3215 --state=$env:USERPROFILE\tailscale-userspace.state --socket=\\.\pipe\ProtectedPrefix\Administrators\tailscale-user --port 41642
+tailscale -socket \\.\pipe\ProtectedPrefix\Administrators\tailscale-user up --hostname=$env:COMPUTERNAME-proxy
