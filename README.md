@@ -13,7 +13,7 @@ Powershell
 Uses the profile that is stored as: `C:\Users\gbraad\Documents\WindowsPowerShell` [ref](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_profiles?view=powershell-7.3)
 
   * `WindowsPowershell`
-    *  PoshThemes
+    * PoshThemes
       * [`mytheme.psm1`](./powerline-theme.psm1)
     * Modules
       * oh-my-posh
