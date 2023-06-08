@@ -10,7 +10,7 @@ The rest is for WSL, Windows Terminal and oh-my-posh (theme).
 Powershell
 ----------
 
-Uses the profile that is stored as: `C:\Users\gbraad\Documents\WindowsPowerShell` [ref](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_profiles?view=powershell-7.3)
+Uses the profile that is stored as: `C:\Users\...\Documents\WindowsPowerShell` [ref](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_profiles?view=powershell-7.3)
 
   * `WindowsPowershell`
     * PoshThemes
@@ -19,6 +19,8 @@ Uses the profile that is stored as: `C:\Users\gbraad\Documents\WindowsPowerShell
       * oh-my-posh
       * posh-git
     * [`Microsoft.PowerShell_profile.ps1`](./Microsoft.PowerShell_profile.ps1)
+
+Consider running [`setup-system.ps1`](./setup-system.ps1) once, as it deals with aliases and other permanently set items.
 
 
 Cygwin
