@@ -7,6 +7,20 @@ The `.vimrc` is used for gVim. To make powerline work, you need to install an ol
 The rest is for WSL, Windows Terminal and oh-my-posh (theme).
 
 
+Powershell
+----------
+
+Uses the profile that is stored as: `C:\Users\gbraad\Documents\WindowsPowerShell` [ref](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_profiles?view=powershell-7.3)
+
+  * `WindowsPowershell`
+    *  PoshThemes
+      * [`mytheme.psm1`](./powerline-theme.psm1)
+    * Modules
+      * oh-my-posh
+      * posh-git
+    * [`Microsoft.PowerShell_profile.ps1`](./Microsoft.PowerShell_profile.ps1)
+
+
 Cygwin
 ------
 
