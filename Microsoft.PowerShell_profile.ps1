@@ -19,6 +19,3 @@ function OnViModeChange {
 #Set-PSReadLineOption -ViModeIndicator Script -ViModeChangeHandler $Function:OnViModeChange
 
 Set-PSReadLineOption -EditMode vi
-
-Remove-Alias -AliasName curl
-Remove-Alias -AliasName wget
